@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(45deg, skyblue, white);
+}
+
+main{
+  margin: 10px;
+  background-image: linear-gradient(200deg, skyblue, white);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, .4);
+  border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  padding: 15px;
+}
+
+form{
+  padding: 20px;
+}
+
+label{
+  font-weight: bold;
+  font-size: 15px;
+  margin: 10px;
+}
+
+input{
+  display: block;
+  margin: 15px;
+  padding: 8px;
+  width: 80%;
+  background-image: inherit;
+  border-radius: 5px;
+  border: 1px solid blue;
+}
+
+.error{
+  color: red;
+  font-size: 10px;
+  margin: 10px;
+}
+
+li{
+  background-image: url(checkmark.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  list-style: none;
+  padding: 10px 30px;
+}
+
+.success{
+  color: green;
+  font-weight: bolder;
+}
+
+.btn{
+  background-color: skyblue;
+  width: 85%;
+}
